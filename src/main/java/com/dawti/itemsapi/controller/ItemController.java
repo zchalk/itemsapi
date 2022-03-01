@@ -19,6 +19,7 @@ public class ItemController {
     @GetMapping("/")
     public String home(String name) {
         return "index";
+    }
 
     @CrossOrigin
     @GetMapping("/all")

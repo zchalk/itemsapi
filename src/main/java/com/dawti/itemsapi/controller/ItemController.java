@@ -15,11 +15,6 @@ public class ItemController {
         this.itemService = itemService;
     }
 
-    @CrossOrigin
-    @GetMapping("/")
-    public String home(String name) {
-        return "index";
-    }
 
     @CrossOrigin
     @GetMapping("/all")

@@ -9,4 +9,20 @@ public class WebController {
     public String index() {
         return "index";
     }
+    @RequestMapping(value = "/about")
+    public String about() {
+        return "about";
+    }
+    @RequestMapping(value = "/login")
+    public String login() {
+        return "login";
+    }
+    @RequestMapping(value = "/form")
+    public String form() {
+        return "item_form";
+    }
+    @RequestMapping(value = "/update")
+    public String update() {
+        return "update_form";
+    }
 }

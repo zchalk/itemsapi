@@ -60,7 +60,7 @@ class ItemsController {
     update(id, name, description, imageUrl){
         const data = { name, description, imageUrl };
 
-        fetch(`http://localhost:8080/item/${id}`, {
+        fetch('http://localhost:8080/item/${id}', {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -77,7 +77,7 @@ class ItemsController {
     }
 
     delete(itemId){
-        fetch(`http://localhost:8080/item/${itemId}`, {
+        fetch('http://localhost:8080/item/${itemId}', {
             method: 'DELETE',
             headers: {
                 'Content-type': 'application/json'

@@ -16,6 +16,11 @@ public class ItemController {
     }
 
     @CrossOrigin
+    @GetMapping("/")
+    public String home(String name) {
+        return "index";
+
+    @CrossOrigin
     @GetMapping("/all")
     public Iterable<Item> getItems() {
         return itemService.all();

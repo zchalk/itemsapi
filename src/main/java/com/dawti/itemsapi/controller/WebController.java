@@ -13,6 +13,10 @@ public class WebController {
     public String about() {
         return "about";
     }
+    @RequestMapping(value = "/items")
+    public String items() {
+        return "items";
+    }
     @RequestMapping(value = "/login")
     public String login() {
         return "login";

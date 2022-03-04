@@ -16,6 +16,7 @@ return "index";<br>
 **Step 6.** Update your paths in your HTML files:<br>
     1 Nav links would point to route instead of html file ex: /about instead of about.html<br>
     2 css/js links should use this guide https://www.baeldung.com/spring-thymeleaf-css-js
+    3 use this <html xmlns:th="http://www.thymeleaf.org"> as your opening html tag
 <br>
 ## You've now set up Thymeleaf!<br>
 <br>

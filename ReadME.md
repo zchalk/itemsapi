@@ -3,6 +3,8 @@ Attempt to deploy this repository using heroku, following the steps for the CLI 
 
 Once you have done that, implement ThymeLeaf.<br>
 **Step 1.** Add dependency for thymeleaf to pom.xml <br>
+gradle - implementation('org.springframework.boot:spring-boot-starter-thymeleaf')
+
 **Step 2.** Create static and templates folder in src > main > resources <br>
 **Step 3.** Move all HTML files to templates folder, and all JS/CSS to static folder <br>
 **Step 4.** Create a WebController in src > main > java > controller <br>
